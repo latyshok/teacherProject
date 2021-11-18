@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.urls import path
 
-from personal_area.views import AuthView
-
+from personal_area.views import AuthView, logout_user, index_view
+app_name = 'personal_area'
 urlpatterns = [
-    path('', AuthView.as_view(), name='auth')
+    path('', index_view, name='index'),
+    path('login', AuthView.as_view(), name='auth'),
+    path('logout', logout_user, name='logout'),
 ]

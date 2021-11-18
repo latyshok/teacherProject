@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'personal_area.apps.PersonalAreaConfig',
+    'classroom.apps.ClassroomConfig',
 ]
 
 MIDDLEWARE = [
