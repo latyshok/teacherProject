@@ -1,0 +1,8 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(0, 196, 130);
+    background: linear-gradient(90deg, rgba(0, 196, 130, 1) 0%, rgba(29, 203, 185, 1) 49%, rgba(0, 217, 255, 1) 100%);
+}
